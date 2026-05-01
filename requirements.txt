@@ -1,0 +1,11 @@
+llama-index
+llama-index-vector-stores-pinecone
+llama-index-embeddings-huggingface
+llama-index-core
+sentence-transformers
+pinecone-client
+google-generativeai
+streamlit
+pdfplumber
+easyocr
+pdf2image

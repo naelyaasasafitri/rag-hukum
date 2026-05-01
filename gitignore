@@ -1,0 +1,9 @@
+# Jangan upload ke GitHub
+.streamlit/secrets.toml
+chroma_db/
+dokumen_hukum/
+__pycache__/
+*.pyc
+.env
+venv/
+rag-hukum/
