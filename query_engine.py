@@ -42,7 +42,7 @@ def get_config():
 
 
 EMBED_MODEL  = "intfloat/multilingual-e5-base"
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 TOP_K        = 8
 
 SYSTEM_PROMPT = """
