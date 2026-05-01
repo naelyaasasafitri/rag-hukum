@@ -217,7 +217,7 @@ def render_sumber(sumber_list: list):
             with col1:
                 st.markdown(
                     f'<span class="{badge_class}">{ikon} {s["dokumen"]}</span> '
-                    f'<span class="badge-sumber">Hal. {s["halaman"]}</span>',
+                    f'<span class="badge-sumber">Pasal {s.get("nomor_pasal") or s.get("halaman", "-")}</span>',
                     unsafe_allow_html=True
                 )
                 if s.get("cuplikan"):
